@@ -6,7 +6,7 @@ class Question
   end
   def check_answer(attempt)
     answer = @num1 + @num2
-    if (attempt.to_i == answer)
+    if (attempt == answer)
       return true
     end
     return false
